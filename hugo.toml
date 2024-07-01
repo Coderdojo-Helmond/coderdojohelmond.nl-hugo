@@ -1,4 +1,4 @@
-baseURL = 'https://coderdojo-helmond.github.io/'
+baseURL = 'https://coderdojo-helmond.github.io/coderdojohelmond.nl-hugo/'
 languageCode = 'nl-nl'
 title = 'CoderDojo Helmond'
 theme = 'CoderDojo-Helmond-Theme'
