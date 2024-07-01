@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="nl-nl" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.126.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>CoderDojo Helmond</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/style.css">
+
+<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head>
+<body class="font-sans">
+  <nav x-data="{ open: false }" class="bg-white fixed w-full h-20 z-10 drop-shadow-lg">
+    <div class="container mx-auto px-5 py-2 flex flex-wrap items-center justify-between ">
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img class="w-[50%]"
+                src="https://coderdojo-helmond.nl/wp-content/uploads/2017/12/logoshort_black_171x117.png"
+                alt="Coderdojo Helmond" />
+        </a>
+        <button type="button" x-on:click="open = !open"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+        </button>
+
+        
+        <div class="hidden w-full md:block md:w-auto">
+            <ul class="font-medium flex flex-row space-x-8 rtl:space-x-reverse mt-0">
+                
+                <li>
+                    <a href="/" class="block">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/edities" class="block">Edities</a>
+                </li>
+                
+                <li>
+                    <a href="/bestuur" class="block">Bestuur</a>
+                </li>
+                
+                <li>
+                    <a href="/mentoren" class="block">Mentoren</a>
+                </li>
+                
+                <li>
+                    <a href="/overons" class="block">Over ons</a>
+                </li>
+                
+                <li>
+                    <a href="/sponsoren" class="block">Sponsoren</a>
+                </li>
+                
+                <li>
+                    <a href="/contact" class="block">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        
+        <div x-show="open" x-transition:enter="transition ease-out-in duration-500 transform"
+            x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in-out duration-500 transform"
+            x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2"
+            x-cloak class="w-full">
+            <ul class="font-medium flex flex-col space-y-2 mt-4 pb-5">
+                
+                <li>
+                    <a href="/" class="block">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/edities" class="block">Edities</a>
+                </li>
+                
+                <li>
+                    <a href="/bestuur" class="block">Bestuur</a>
+                </li>
+                
+                <li>
+                    <a href="/mentoren" class="block">Mentoren</a>
+                </li>
+                
+                <li>
+                    <a href="/overons" class="block">Over ons</a>
+                </li>
+                
+                <li>
+                    <a href="/sponsoren" class="block">Sponsoren</a>
+                </li>
+                
+                <li>
+                    <a href="/contact" class="block">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+
+<header class="bg-[#FFB005]" >
+  <section class="h-40">
+
+  </section>
+  <section class="container mx-auto px-5 pb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 max-md:space-y-10 items-center">
+      <article class="space-y-10 max-md:text-center md:items-center">
+        <h1 class="text-5xl text-white font-bold ">Meld je aan als jij wil leren programmeren</h1>
+        <p class="text-white">
+          Ben je tussen de 7 en 17 jaar, ben je leergierig en wil je leren programmeren? Dan kunnen wij jou daarbij helpen! Kom naar Coderdojo Helmond
+        </p>
+
+        <button class="h-12 w-48 overflow-hidden rounded-full bg-white text-lg font-bold "
+          onclick="location.href=&#34;https://example.com&#34;">
+          Aanmelden
+        </button>
+      </article>
+      
+      
+      
+      
+
+      
+      <figure>
+        <a href="#" alt="CoderDojo Helmond #4">
+          <img src="https://placehold.co/400x200" alt="CoderDojo Helmond #4" class="w-full rounded-t-lg" />
+          <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+            <span
+              class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full mb-1">Edities</span>
+            <h2 class="text-2xl font-bold mb-2">CoderDojo Helmond #4</h2>
+            <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+          </figcaption>
+        </a>
+      </figure>
+      
+    </div>
+  </section>
+</header>
+
+
+
+<section class="container mx-auto mx-auto px-5 py-10">
+  <article class="text-center my-10">
+    <h2 class="text-4xl font-bold">Laatste nieuws</h2>
+    <p class="text-lg text-gray-700">Kijk hier regelmatig, zodat je niets mist.</p>
+  </article>
+
+  <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 max-md:space-y-10">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond nieuws"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond nieuws" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full mb-1">Nieuws</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond nieuws</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-15" class="text-sm">March 15, 2024</time>
+      </figcaption>
+    </figure>
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond nieuws"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond nieuws" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full mb-1">Nieuws</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond nieuws</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-09" class="text-sm">March 9, 2024</time>
+      </figcaption>
+    </figure>
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond nieuws"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond nieuws" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full mb-1">Nieuws</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond nieuws</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-09" class="text-sm">March 9, 2024</time>
+      </figcaption>
+    </figure>
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond nieuws"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond nieuws" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-orange-200 text-orange-700 rounded-full mb-1">Nieuws</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond nieuws</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-09" class="text-sm">March 9, 2024</time>
+      </figcaption>
+    </figure>
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond #4"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond #4" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full mb-1">Edities</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond #4</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-09" class="text-sm">March 9, 2024</time>
+      </figcaption>
+    </figure>
+    
+    <figure class="drop-shadow-md">
+      <a href="#" alt="CoderDojo Helmond #3"></a>
+      <img src="https://placehold.co/400x200" alt="CoderDojo Helmond #3" class="w-full rounded-t-lg" />
+      <figcaption class="text-left py-5 px-10 bg-white rounded-b-lg">
+        
+        
+        <span
+          class="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full mb-1">Edities</span>
+        <h3 class="text-2xl font-bold mb-2">CoderDojo Helmond #3</h3>
+        <p class="text-gray-600">Deze Dojo vindt plaats in de Bieb in Helmond.</p>
+        <time datetime=" 2024-03-09" class="text-sm">March 9, 2024</time>
+      </figcaption>
+    </figure>
+    
+  </main>
+
+  
+<section class="w-full bg-[#FFB005] my-10 rounded-lg flex justify-between">
+  <article class="px-10 py-5">
+    <h4 class="text-white font-semibold">Wil je ook leren programmeren?</h4>
+    <p class="text-white text-sm">Meld je aan door te klikken op de knop</p>
+  </article>
+  <button class="h-12 w-48 overflow-hidden rounded-full bg-white text-lg font-bold my-auto mr-10" onclick="location.href=&#34;https://example.com&#34;">
+    Aanmelden
+  </button>
+</section>
+
+
+</section>
+
+  <footer id="footer" class="bg-[#343a40] ">
+    <section class="container mx-auto p-5 text-white text-center">
+  © Coderdojo Helmond 2024
+              </section>
+  </footer>
+</body>
+</html>

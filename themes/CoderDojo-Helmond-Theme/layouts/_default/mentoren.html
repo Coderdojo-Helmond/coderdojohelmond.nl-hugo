@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="container mx-auto mx-auto px-5 py-10">
+  <section class="h-10">
+  
+  </section>
+  <article class="my-10">
+      <h2 class="text-4xl font-bold">{{ .Params.title}}</h2>
+      <p class="text-lg">{{ .Params.subtitle }}</p>     
+  </article>
+ <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-10 max-md:space-y-10">
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+  {{ if eq .Section "mentoren" }}
+    <figure class="flex flex-col rounded-md overflow-hidden shadow-md cursor-pointer">
+      <div class="pb-[100%] h-0 relative bg-white">
+        <img class="absolute w-full h-full inset-0 object-contain object-left-bottom" src="{{ .Params.image }}" />
+      </div>
+      <div class="bg-white p-6 text-center flex-grow text-secondary">
+        <h2 class="text-xl font-exo font-bold">{{ .Params.name }}</h2>
+        <p>{{ .Params.functie }}</p>
+      </div>
+    </figure>
+  {{ end }}
+{{ end }}
+ </main>
+
+ {{ partial "aanmeldbanner.html" . }}
+
+
+</section>
+{{ end }}

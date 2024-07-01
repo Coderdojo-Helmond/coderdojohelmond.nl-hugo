@@ -1,0 +1,44 @@
+<nav x-data="{ open: false }" class="bg-white fixed w-full h-20 z-10 drop-shadow-lg">
+    <div class="container mx-auto px-5 py-2 flex flex-wrap items-center justify-between ">
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img class="w-[50%]"
+                src="https://coderdojo-helmond.nl/wp-content/uploads/2017/12/logoshort_black_171x117.png"
+                alt="Coderdojo Helmond" />
+        </a>
+        <button type="button" x-on:click="open = !open"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+        </button>
+
+        <!--desktop menu--->
+        <div class="hidden w-full md:block md:w-auto">
+            <ul class="font-medium flex flex-row space-x-8 rtl:space-x-reverse mt-0">
+                {{ range .Site.Params.navigation }}
+                <li>
+                    <a href="{{ .url }}" class="block">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <!--mobile menu--->
+        <div x-show="open" x-transition:enter="transition ease-out-in duration-500 transform"
+            x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in-out duration-500 transform"
+            x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2"
+            x-cloak class="w-full">
+            <ul class="font-medium flex flex-col space-y-2 mt-4 pb-5">
+                {{ range .Site.Params.navigation }}
+                <li>
+                    <a href="{{ .url }}" class="block">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>

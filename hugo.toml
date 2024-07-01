@@ -1,0 +1,37 @@
+baseURL = 'https://coderdojo-helmond.nl/'
+languageCode = 'nl-nl'
+title = 'CoderDojo Helmond'
+theme = 'CoderDojo-Helmond-Theme'
+
+[params]
+  aanmeldLink = 'https://example.com'
+  contactEmail = 'contact@coderdojohelmond.nl'
+  color = "#FFB005"
+  
+[[params.navigation]]
+  title = "Home"
+  url = "/"
+
+[[params.navigation]]
+  title = "Edities"
+  url = "/edities"
+
+[[params.navigation]]
+  title = "Bestuur"
+  url = "/bestuur"
+
+[[params.navigation]]
+  title = "Mentoren"
+  url = "/mentoren"
+
+[[params.navigation]]
+  title = "Over ons"
+  url = "/overons"
+
+[[params.navigation]]
+  title = "Sponsoren"
+  url = "/sponsoren"
+
+[[params.navigation]]
+  title = "Contact"
+  url = "/contact"

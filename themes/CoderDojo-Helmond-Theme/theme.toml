@@ -1,0 +1,17 @@
+name = 'CoderDojo Helmond Theme'
+license = 'MIT'
+licenselink = 'https://github.com/stan754/CoderDojo-Helmond-Theme/LICENSE'
+description = 'Theme for CoderDojo Helmond website'
+
+homepage = 'https://github.com/stan754/CoderDojo-Helmond-Theme'
+
+demosite = 'https://coderdojo-helmond.nl'
+
+[author]
+    name = "Stan van de Wiel"
+    homepage = "https://stanvdwiel.nl"
+
+[original]
+  author = 'Name of original author'
+  homepage = 'https://github.com/yohn-cheung'
+  repo = 'https://github.com/yohn-cheung/coderdojo-helmond'

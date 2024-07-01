@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edities on CoderDojo Helmond</title>
+    <link>http://localhost:1313/edities/edities/</link>
+    <description>Recent content in Edities on CoderDojo Helmond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/edities/edities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoderDojo Helmond #1</title>
+      <link>http://localhost:1313/edities/edities/1/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/edities/edities/1/</guid>
+      <description>Content of your CoderDojo Helmond #98 edition goes here.</description>
+    </item>
+  </channel>
+</rss>

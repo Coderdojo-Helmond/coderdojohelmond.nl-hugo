@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edities on CoderDojo Helmond</title>
+    <link>http://localhost:1313/edities/</link>
+    <description>Recent content in Edities on CoderDojo Helmond</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/edities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoderDojo Helmond #1</title>
+      <link>http://localhost:1313/edities/1/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/edities/1/</guid>
+      <description>Content of your CoderDojo Helmond #98 edition goes here.</description>
+    </item>
+    <item>
+      <title>CoderDojo Helmond #2</title>
+      <link>http://localhost:1313/edities/2/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/edities/2/</guid>
+      <description>Content of your CoderDojo Helmond #98 edition goes here.</description>
+    </item>
+    <item>
+      <title>CoderDojo Helmond #3</title>
+      <link>http://localhost:1313/edities/3/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/edities/3/</guid>
+      <description>Content of your CoderDojo Helmond #98 edition goes here.</description>
+    </item>
+    <item>
+      <title>CoderDojo Helmond #4</title>
+      <link>http://localhost:1313/edities/4/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/edities/4/</guid>
+      <description>Content of your CoderDojo Helmond #98 edition goes here.</description>
+    </item>
+  </channel>
+</rss>

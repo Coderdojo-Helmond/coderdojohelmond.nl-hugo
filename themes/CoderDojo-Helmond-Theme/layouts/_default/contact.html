@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section class="container mx-auto mx-auto px-5 py-10">
+  <section class="h-10">
+  
+  </section>
+  <article class="my-10 space-y-3">
+      <h2 class="text-4xl font-bold">Contact</h2>
+      <p class="text-md">
+          Als je vragen of opmerkingen hebt kun je deze altijd naar ons mailen. Stuur daarvoor een bericht naar
+          <a href="mailto:{{.Site.Params.contactEmail}}">{{ .Site.Params.contactEmail }}</a>. Wij nemen dan z.s.m. contact met je op.
+      </p>     
+      
+      <iframe width="425" height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=5.653326809406281%2C51.48060114390986%2C5.656223595142365%2C51.48200762005631&amp;layer=mapnik"
+          style="border: 1px solid black"></iframe><br /><small><a
+              href="https://www.openstreetmap.org/#map=19/51.48130/5.65478">View Larger Map</a></small>
+  </article>
+
+{{ partial "aanmeldbanner.html" . }}
+
+</section>
+{{ end }}

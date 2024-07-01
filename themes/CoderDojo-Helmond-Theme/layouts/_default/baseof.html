@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="font-sans">
+  {{ partial "navbar.html" . }}
+  {{ block "main" . }}{{end}}
+  <footer id="footer" class="bg-[#343a40] {{ if .Params.notscrollable }}fixed bottom-0 w-full{{ end }}">
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>
