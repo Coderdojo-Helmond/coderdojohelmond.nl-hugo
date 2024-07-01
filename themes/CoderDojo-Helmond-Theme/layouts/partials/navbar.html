@@ -1,6 +1,6 @@
 <nav x-data="{ open: false }" class="bg-white fixed w-full h-20 z-10 drop-shadow-lg">
     <div class="container mx-auto px-5 py-2 flex flex-wrap items-center justify-between ">
-        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img class="w-[50%]"
                 src="https://coderdojo-helmond.nl/wp-content/uploads/2017/12/logoshort_black_171x117.png"
                 alt="Coderdojo Helmond" />
@@ -31,11 +31,11 @@
             x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
             x-transition:leave="transition ease-in-out duration-500 transform"
             x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-2"
-            x-cloak class="w-full">
-            <ul class="font-medium flex flex-col space-y-2 mt-4 pb-5">
+            x-cloak class="absolute top-20 left-0 w-full bg-white">
+            <ul class="font-medium flex flex-col space-y-2 mt-4 pb-3 pl-8">
                 {{ range .Site.Params.navigation }}
-                <li>
-                    <a href="{{ .url }}" class="block">{{ .title }}</a>
+                <li class="border-b border-gray-200 last:border-none">
+                    <a href="{{ .url }}" class="block py-3 px-5 hover:bg-gray-100">{{ .title }}</a>
                 </li>
                 {{ end }}
             </ul>
