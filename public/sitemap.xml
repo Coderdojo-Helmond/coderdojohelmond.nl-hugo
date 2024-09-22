@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/nieuws/3/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/edities/21-09-24/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/edities/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/edities/22-06-24/</loc>
+    <lastmod>2024-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/edities/25-05-24/</loc>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/nieuws/3/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/nieuws/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/edities/1/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/edities/2/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/edities/3/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/edities/4/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/nieuws/1/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
@@ -32,12 +32,13 @@
     <loc>http://localhost:1313/nieuws/4/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/edities/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bestuur/marek-janse-de-jonge/</loc>
   </url><url>
-    <loc>http://localhost:1313/bestuur/bestuur1/</loc>
+    <loc>http://localhost:1313/bestuur/marlou-van-de-wiel/</loc>
   </url><url>
-    <loc>http://localhost:1313/mentoren/mentor1/</loc>
+    <loc>http://localhost:1313/bestuur/stan-van-de-wiel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/bestuur/stefan-vermunt/</loc>
   </url><url>
     <loc>http://localhost:1313/sponsoren/sponsor1/</loc>
   </url><url>

@@ -20,9 +20,9 @@ theme = 'CoderDojo-Helmond-Theme'
   title = "Bestuur"
   url = "/bestuur"
 
-[[params.navigation]]
-  title = "Mentoren"
-  url = "/mentoren"
+#[[params.navigation]]
+#  title = "Mentoren"
+#  url = "/mentoren"
 
 [[params.navigation]]
   title = "Over ons"

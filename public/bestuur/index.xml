@@ -9,9 +9,30 @@
     <atom:link href="http://localhost:1313/bestuur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/bestuur/bestuur1/</link>
+      <link>http://localhost:1313/bestuur/marek-janse-de-jonge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bestuur/bestuur1/</guid>
+      <guid>http://localhost:1313/bestuur/marek-janse-de-jonge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/bestuur/marlou-van-de-wiel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bestuur/marlou-van-de-wiel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/bestuur/stan-van-de-wiel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bestuur/stan-van-de-wiel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/bestuur/stefan-vermunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bestuur/stefan-vermunt/</guid>
       <description></description>
     </item>
   </channel>
