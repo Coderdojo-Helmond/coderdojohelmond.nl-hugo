@@ -28,9 +28,9 @@ theme = 'CoderDojo-Helmond-Theme'
   title = "Over ons"
   url = "/overons"
 
-[[params.navigation]]
-  title = "Sponsoren"
-  url = "/sponsoren"
+#[[params.navigation]]
+#  title = "Sponsoren"
+#  url = "/sponsoren"
 
 [[params.navigation]]
   title = "Contact"
