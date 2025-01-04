@@ -1,10 +1,10 @@
-baseURL = 'https://cd-helmond.stanvdwiel.nl/'
+baseURL = 'https://dev.coderdojohelmond.nl'
 languageCode = 'nl-nl'
 title = 'CoderDojo Helmond'
 theme = 'CoderDojo-Helmond-Theme'
 
 [params]
-  aanmeldLink = 'https://example.com'
+  aanmeldLink = 'https://www.eventbrite.nl/e/coderdojo-helmond-11-januari-tickets-1026024275227?aff=oddtdtcreator'
   contactEmail = 'contact@coderdojohelmond.nl'
   color = "#FFB005"
   
