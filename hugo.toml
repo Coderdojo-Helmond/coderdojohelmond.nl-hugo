@@ -4,7 +4,7 @@ title = 'CoderDojo Helmond'
 theme = 'CoderDojo-Helmond-Theme'
 
 [params]
-  aanmeldLink = 'https://www.eventbrite.nl/e/coderdojo-helmond-11-januari-tickets-1026024275227?aff=oddtdtcreator'
+  aanmeldLink = 'https://forms.office.com/Pages/ResponsePage.aspx?id=C5C-4TgS1UK9F-ukF3dwoCeUoJYHq5VJjQ4_GcVfU6FUQjNCMVFOWkdGME1HWElXUU5YUkZQR1I1QiQlQCN0PWcu'
   contactEmail = 'contact@coderdojohelmond.nl'
   color = "#FFB005"
   
