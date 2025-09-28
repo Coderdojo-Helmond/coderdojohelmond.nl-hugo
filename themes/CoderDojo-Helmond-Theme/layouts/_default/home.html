@@ -18,7 +18,9 @@
         </button>
       </article>
       {{ $last_edition := slice }}
-      {{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "edities") }}
+      {{ $editions := where .Site.RegularPages "Section" "edities" }}
+      {{ $not_draft := where $editions "Draft" "!=" true }}
+      {{ range first 1 $not_draft.ByDate.Reverse }}
       {{ $last_edition = $last_edition | append . }}
       {{ end }}
 
