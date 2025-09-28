@@ -6,7 +6,8 @@
 <body class="font-sans">
   {{ partial "navbar.html" . }}
   {{ block "main" . }}{{end}}
-  <footer id="footer" class="bg-[#343a40] {{ if .Params.notscrollable }}fixed bottom-0 w-full{{ end }}">
+  {{ $isDojo := in .Params.tag "Edities" }}
+  <footer id="footer" class="bg-[#343a40] {{ if or .Params.notscrollable $isDojo }}fixed bottom-0 w-full{{ end }}">
     {{ partial "footer.html" . }}
   </footer>
 </body>

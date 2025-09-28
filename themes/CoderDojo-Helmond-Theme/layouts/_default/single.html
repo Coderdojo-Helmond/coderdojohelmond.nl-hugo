@@ -1,10 +1,26 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+{{ $bgColor :=  .Site.Params.color | default "#FFB005" }}
+<header class="bg-[{{ $bgColor }}]" >
+  <section class="h-40">
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  </section>
+  <section class="container mx-auto px-5 pb-20">
+    <div class="grid grid-cols-1 items-center">
+      <article class="space-y-10 max-md:text-center md:items-center">
+      </article>
+    </div>
+  </section>
+</header>
 
-  {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+<section class="container mx-auto mx-auto px-5 py-10">
+  <article class="text-center my-10">
+    <h2 class="text-4xl font-bold">{{.Title}}</h2>
+  </article>
+
+  <main class="grid grid-cols-1">
+    {{ .Content }}
+  </main>
+  
+  {{ partial "aanmeldbanner.html" . }}
+</section>
 {{ end }}

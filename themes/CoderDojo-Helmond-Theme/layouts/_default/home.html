@@ -19,8 +19,8 @@
       </article>
       {{ $last_edition := slice }}
       {{ $editions := where .Site.RegularPages "Section" "edities" }}
-      {{ $not_draft := where $editions "Draft" "!=" true }}
-      {{ range first 1 $not_draft.ByDate.Reverse }}
+      {{ $not_future := where $editions ".Params.future" "!=" true }}
+      {{ range first 1 $not_future.ByDate.Reverse }}
       {{ $last_edition = $last_edition | append . }}
       {{ end }}
 
