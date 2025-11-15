@@ -4,7 +4,7 @@ title = 'CoderDojo Helmond'
 theme = 'CoderDojo-Helmond-Theme'
 
 [params]
-  aanmeldLink = 'https://forms.office.com/Pages/ResponsePage.aspx?id=C5C-4TgS1UK9F-ukF3dwoJ0VjSJFQ41CmeBH81qRuBxUMk5ZTVpQVVAxUkRRMUFISDVMU1ZERkY5WS4u'
+  aanmeldLink = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=C5C-4TgS1UK9F-ukF3dwoJ0VjSJFQ41CmeBH81qRuBxUOE05SlpLRVRLR1VQT0hVVEVPS1FJTTc3MC4u'
   contactEmail = 'contact@coderdojohelmond.nl'
   color = "#FFB005"
   
